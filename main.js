@@ -7,10 +7,10 @@ const hamburgerMenu = document.querySelector('div.hamburger-menu');
 
 // Open 
 hamburgerIcon.addEventListener('click', function(){
-  hamburgerMenu.classList.add('active')
+  hamburgerMenu.classList.add('active');
 });
 
 // Close
 closeX.addEventListener('click', function(){
-  hamburgerMenu.classList.remove('active')
+  hamburgerMenu.classList.remove('active');
 });
